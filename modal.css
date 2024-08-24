@@ -1,0 +1,37 @@
+.btn {
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: blueviolet;
+  color: #fff;
+  outline: 0;
+  border: 0;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 400px;
+  min-height: 300px;
+  background-color: #fff;
+}
+.no-csrool {
+  overflow: hidden;
+}
+.btn-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
